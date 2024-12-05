@@ -1,0 +1,8 @@
+Installation - sudo apt-get install bison
+Version - yacc --version
+Flex file - <file name>.l
+Yacc file - <file name>.y
+Flex Generate - flex <filename.l>
+Yacc Generate - yacc -d <file name.y>
+Compilation - gcc lex.yy.c y.tab.c
+Run - ./a.out
